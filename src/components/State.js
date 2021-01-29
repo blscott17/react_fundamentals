@@ -19,7 +19,7 @@ const State = () => {
     <>
       {/* Fragments == empty div containers */}
       <button onClick={decCount}>-</button>
-      <span>{count}</span>
+      <span> {count} </span>
       <button onClick={incCount}>+</button>
     </>
   );
